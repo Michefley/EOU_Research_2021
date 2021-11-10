@@ -35,7 +35,7 @@ def main():
     wTemp = rd.randint(1,10)
 
     # **Ensure we eliminate all possibilities of dividing by 0 and obtaining imaginary numbers.**
-    if (uTemp != (-c-2*d)):
+    if (uTemp != (-c-2*d) and -1*uTemp != (-c-2*d)):
       for x in range(3): # (0,+,-) for the u value
 
         u = uTemp
