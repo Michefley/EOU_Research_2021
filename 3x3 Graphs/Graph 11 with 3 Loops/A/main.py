@@ -5,7 +5,7 @@ import random as rd
 # Author: Michael Hefley
 # Date: 11/10/2021
 # Graph: 11 w/ 3 loops
-# Nilpotent Signing: D
+# Nilpotent Signing: A
 #
 # Purpose: We wish to obtain a certain realization of our Signed Coefficient Support
 # Arbitrary Pattern (SCSAP) of a specific graph (or signed graph). The program 
