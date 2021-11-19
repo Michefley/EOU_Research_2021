@@ -1,134 +1,136 @@
-Realization {0,0,0}
-u = 0 v = 0 w = 0
-a = -1.6 b = -5.4 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 + 3.5527136788005e-15, x, domain='RR')
+Realization {-,-,-} 
+u = Fraction(-3, 1), v = Fraction(-5, 1), w = Fraction(-2, 1) 
+a = Fraction(-3, 2), b = Fraction(-19, 2), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2 - 5*x - 2, x, domain='ZZ') 
 
-Realization {0,0,+}
-u = 0 v = 0 w = 7
-a = -0.2 b = -6.8 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 + 7.0, x, domain='RR')
+Realization {-,-,0} 
+u = Fraction(-3, 1), v = Fraction(-5, 1), w = Fraction(0, 1) 
+a = Fraction(-5, 4), b = Fraction(-39, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2 - 5*x, x, domain='ZZ') 
 
-Realization {0,0,-}
-u = 0 v = 0 w = -7
-a = -3.0 b = -4.0 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 - 7.0, x, domain='RR')
+Realization {-,-,+} 
+u = Fraction(-3, 1), v = Fraction(-5, 1), w = Fraction(2, 1) 
+a = Fraction(-1, 1), b = Fraction(-10, 1), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2 - 5*x + 2, x, domain='ZZ') 
 
-Realization {0,+,0}
-u = 0 v = 1 w = 0
-a = -2.0 b = -6.0 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 + 1.0*x, x, domain='RR')
+Realization {-,0,-} 
+u = Fraction(-3, 1), v = Fraction(0, 1), w = Fraction(-2, 1) 
+a = Fraction(-11, 4), b = Fraction(-53, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2 - 2, x, domain='ZZ') 
 
-Realization {0,+,+}
-u = 0 v = 1 w = 7
-a = -0.6 b = -7.4 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 + 1.0*x + 7.0, x, domain='RR')
+Realization {-,0,0} 
+u = Fraction(-3, 1), v = Fraction(0, 1), w = Fraction(0, 1) 
+a = Fraction(-5, 2), b = Fraction(-27, 2), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2, x, domain='ZZ') 
 
-Realization {0,+,-}
-u = 0 v = 1 w = -7
-a = -3.4 b = -4.6 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 + 1.0*x - 7.0, x, domain='RR')
+Realization {-,0,+} 
+u = Fraction(-3, 1), v = Fraction(0, 1), w = Fraction(2, 1) 
+a = Fraction(-9, 4), b = Fraction(-55, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2 + 2, x, domain='ZZ') 
 
-Realization {0,-,0}
-u = 0 v = -1 w = 0
-a = -1.2 b = -4.8 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 - 1.0*x - 1.77635683940025e-15, x, domain='RR')
+Realization {-,+,-} 
+u = Fraction(-3, 1), v = Fraction(5, 1), w = Fraction(-2, 1) 
+a = Fraction(-4, 1), b = Fraction(-17, 1), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2 + 5*x - 2, x, domain='ZZ') 
 
-Realization {0,-,+}
-u = 0 v = -1 w = 2
-a = -0.8 b = -5.2 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 - 1.0*x + 2.0, x, domain='RR')
+Realization {-,+,0} 
+u = Fraction(-3, 1), v = Fraction(5, 1), w = Fraction(0, 1) 
+a = Fraction(-15, 4), b = Fraction(-69, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2 + 5*x, x, domain='ZZ') 
 
-Realization {0,-,-}
-u = 0 v = -1 w = -7
-a = -2.6 b = -3.4 c = -1 d = -2 e = 3
-PurePoly(1.0*x**3 - 1.0*x - 7.0, x, domain='RR')
+Realization {-,+,+} 
+u = Fraction(-3, 1), v = Fraction(5, 1), w = Fraction(2, 1) 
+a = Fraction(-7, 2), b = Fraction(-35, 2), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(6, 1) 
+PurePoly(x**3 - 3*x**2 + 5*x + 2, x, domain='ZZ') 
 
-Realization {+,0,0}
-u = 1 v = 0 w = 0
-a = -1.0 b = -3.0 c = -1 d = -2 e = 2
-PurePoly(x**3 + x**2, x, domain='ZZ')
+Realization {0,-,-} 
+u = Fraction(0, 1), v = Fraction(-3, 1), w = Fraction(-2, 1) 
+a = Fraction(-4, 5), b = Fraction(-16, 5), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3 - 3*x - 2, x, domain='ZZ') 
 
-Realization {+,0,+}
-u = 1 v = 0 w = 3
-a = -0.25 b = -3.75 c = -1 d = -2 e = 2
-PurePoly(1.0*x**3 + 1.0*x**2 + 3.0, x, domain='RR')
+Realization {0,-,0} 
+u = Fraction(0, 1), v = Fraction(-3, 1), w = Fraction(0, 1) 
+a = Fraction(-2, 5), b = Fraction(-18, 5), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3 - 3*x, x, domain='ZZ') 
 
-Realization {+,0,-}
-u = 1 v = 0 w = -3
-a = -1.75 b = -2.25 c = -1 d = -2 e = 2
-PurePoly(1.0*x**3 + 1.0*x**2 - 3.0, x, domain='RR')
+Realization {0,-,+} 
+u = Fraction(0, 1), v = Fraction(-1, 1), w = Fraction(4, 1) 
+a = Fraction(-2, 5), b = Fraction(-28, 5), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3 - x + 4, x, domain='ZZ') 
 
-Realization {+,+,0}
-u = 1 v = 7 w = 0
-a = -4.5 b = -6.5 c = -1 d = -2 e = 2
-PurePoly(1.0*x**3 + 1.0*x**2 + 7.0*x, x, domain='RR')
+Realization {0,0,-} 
+u = Fraction(0, 1), v = Fraction(0, 1), w = Fraction(-2, 1) 
+a = Fraction(-2, 1), b = Fraction(-5, 1), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3 - 2, x, domain='ZZ') 
 
-Realization {+,+,+}
-u = 1 v = 7 w = 3
-a = -3.75 b = -7.25 c = -1 d = -2 e = 2
-PurePoly(1.0*x**3 + 1.0*x**2 + 7.0*x + 3.0, x, domain='RR')
+Realization {0,0,0} 
+u = Fraction(0, 1), v = Fraction(0, 1), w = Fraction(0, 1) 
+a = Fraction(-8, 5), b = Fraction(-27, 5), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3, x, domain='ZZ') 
 
-Realization {+,+,-}
-u = 1 v = 7 w = -3
-a = -5.25 b = -5.75 c = -1 d = -2 e = 2
-PurePoly(1.0*x**3 + 1.0*x**2 + 7.0*x - 3.0, x, domain='RR')
+Realization {0,0,+} 
+u = Fraction(0, 1), v = Fraction(0, 1), w = Fraction(2, 1) 
+a = Fraction(-6, 5), b = Fraction(-29, 5), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3 + 2, x, domain='ZZ') 
 
-Realization {+,-,0}
-u = 1 v = -1 w = 0
-a = -0.5 b = -2.5 c = -1 d = -2 e = 2
-PurePoly(1.0*x**3 + 1.0*x**2 - 1.0*x, x, domain='RR')
+Realization {0,+,-} 
+u = Fraction(0, 1), v = Fraction(5, 1), w = Fraction(-2, 1) 
+a = Fraction(-4, 1), b = Fraction(-8, 1), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3 + 5*x - 2, x, domain='ZZ') 
 
-Realization {+,-,+}
-u = 1 v = -1 w = 1
-a = -0.25 b = -2.75 c = -1 d = -2 e = 2
-PurePoly(1.0*x**3 + 1.0*x**2 - 1.0*x + 1.0, x, domain='RR')
+Realization {0,+,0} 
+u = Fraction(0, 1), v = Fraction(5, 1), w = Fraction(0, 1) 
+a = Fraction(-18, 5), b = Fraction(-42, 5), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3 + 5*x, x, domain='ZZ') 
 
-Realization {+,-,-}
-u = 1 v = -3 w = -5
-a = -0.75 b = -0.25 c = -1 d = -2 e = 2
-PurePoly(1.0*x**3 + 1.0*x**2 - 3.0*x - 5.0, x, domain='RR')
+Realization {0,+,+} 
+u = Fraction(0, 1), v = Fraction(5, 1), w = Fraction(2, 1) 
+a = Fraction(-16, 5), b = Fraction(-44, 5), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(3, 1) 
+PurePoly(x**3 + 5*x + 2, x, domain='ZZ') 
 
-Realization {-,0,0}
-u = -3 v = 0 w = 0
-a = -2.5 b = -13.5 c = -1 d = -2 e = 6
-PurePoly(x**3 - 3*x**2, x, domain='ZZ')
+Realization {+,-,-} 
+u = Fraction(1, 1), v = Fraction(-1, 1), w = Fraction(-4, 1) 
+a = Fraction(-3, 2), b = Fraction(-3, 2), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(2, 1) 
+PurePoly(x**3 + x**2 - x - 4, x, domain='ZZ') 
 
-Realization {-,0,+}
-u = -3 v = 0 w = 7
-a = -1.625 b = -14.375 c = -1 d = -2 e = 6
-PurePoly(1.0*x**3 - 3.0*x**2 + 7.0, x, domain='RR')
+Realization {+,-,0} 
+u = Fraction(1, 1), v = Fraction(-1, 1), w = Fraction(0, 1) 
+a = Fraction(-1, 2), b = Fraction(-5, 2), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(2, 1) 
+PurePoly(x**3 + x**2 - x, x, domain='ZZ') 
 
-Realization {-,0,-}
-u = -3 v = 0 w = -7
-a = -3.375 b = -12.625 c = -1 d = -2 e = 6
-PurePoly(1.0*x**3 - 3.0*x**2 - 7.0, x, domain='RR')
+Realization {+,-,+} 
+u = Fraction(1, 1), v = Fraction(-1, 1), w = Fraction(1, 1) 
+a = Fraction(-1, 4), b = Fraction(-11, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(2, 1) 
+PurePoly(x**3 + x**2 - x + 1, x, domain='ZZ') 
 
-Realization {-,+,0}
-u = -3 v = 1 w = 0
-a = -2.75 b = -14.25 c = -1 d = -2 e = 6
-PurePoly(1.0*x**3 - 3.0*x**2 + 1.0*x, x, domain='RR')
+Realization {+,0,-} 
+u = Fraction(1, 1), v = Fraction(0, 1), w = Fraction(-1, 1) 
+a = Fraction(-5, 4), b = Fraction(-11, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(2, 1) 
+PurePoly(x**3 + x**2 - 1, x, domain='ZZ') 
 
-Realization {-,+,+}
-u = -3 v = 1 w = 7
-a = -1.875 b = -15.125 c = -1 d = -2 e = 6
-PurePoly(1.0*x**3 - 3.0*x**2 + 1.0*x + 7.0, x, domain='RR')
+Realization {+,0,0} 
+u = Fraction(1, 1), v = Fraction(0, 1), w = Fraction(0, 1) 
+a = Fraction(-1, 1), b = Fraction(-3, 1), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(2, 1) 
+PurePoly(x**3 + x**2, x, domain='ZZ') 
 
-Realization {-,+,-}
-u = -3 v = 1 w = -7
-a = -3.625 b = -13.375 c = -1 d = -2 e = 6
-PurePoly(1.0*x**3 - 3.0*x**2 + 1.0*x - 7.0, x, domain='RR')
+Realization {+,0,+} 
+u = Fraction(1, 1), v = Fraction(0, 1), w = Fraction(1, 1) 
+a = Fraction(-3, 4), b = Fraction(-13, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(2, 1) 
+PurePoly(x**3 + x**2 + 1, x, domain='ZZ') 
 
-Realization {-,-,0}
-u = -3 v = -1 w = 0
-a = -2.25 b = -12.75 c = -1 d = -2 e = 6
-PurePoly(1.0*x**3 - 3.0*x**2 - 1.0*x, x, domain='RR')
+Realization {+,+,-} 
+u = Fraction(1, 1), v = Fraction(8, 1), w = Fraction(-1, 1) 
+a = Fraction(-21, 4), b = Fraction(-27, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(2, 1) 
+PurePoly(x**3 + x**2 + 8*x - 1, x, domain='ZZ') 
 
-Realization {-,-,+}
-u = -3 v = -1 w = 7
-a = -1.375 b = -13.625 c = -1 d = -2 e = 6
-PurePoly(1.0*x**3 - 3.0*x**2 - 1.0*x + 7.0, x, domain='RR')
+Realization {+,+,0} 
+u = Fraction(2, 1), v = Fraction(2, 1), w = Fraction(0, 1) 
+a = Fraction(-4, 3), b = Fraction(-5, 3), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(1, 1) 
+PurePoly(x**3 + 2*x**2 + 2*x, x, domain='ZZ') 
 
-Realization {-,-,-}
-u = -3 v = -1 w = -7
-a = -3.125 b = -11.875 c = -1 d = -2 e = 6
-PurePoly(1.0*x**3 - 3.0*x**2 - 1.0*x - 7.0, x, domain='RR')
+Realization {+,+,+} 
+u = Fraction(1, 1), v = Fraction(8, 1), w = Fraction(1, 1) 
+a = Fraction(-19, 4), b = Fraction(-29, 4), c = Fraction(-1, 1), d = Fraction(-2, 1), e = Fraction(2, 1) 
+PurePoly(x**3 + x**2 + 8*x + 1, x, domain='ZZ') 
+
+27
