@@ -9,9 +9,9 @@ a = Fraction(-1, 2), b = Fraction(-5, 2), c = Fraction(1, 1), d = Fraction(2, 1)
 PurePoly(x**3 - x**2 - x, x, domain='ZZ') 
 
 Realization {-,-,+} 
-u = Fraction(-1, 1), v = Fraction(-1, 1), w = Fraction(2, 1) 
-a = Fraction(-1, 1), b = Fraction(-2, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-2, 1) 
-PurePoly(x**3 - x**2 - x + 2, x, domain='ZZ') 
+u = Fraction(-1, 1), v = Fraction(-1, 1), w = Fraction(4, 1) 
+a = Fraction(-3, 2), b = Fraction(-3, 2), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-2, 1) 
+PurePoly(x**3 - x**2 - x + 4, x, domain='ZZ') 
 
 Realization {-,0,-} 
 u = Fraction(-1, 1), v = Fraction(0, 1), w = Fraction(-2, 1) 
@@ -24,44 +24,44 @@ a = Fraction(-1, 1), b = Fraction(-3, 1), c = Fraction(1, 1), d = Fraction(2, 1)
 PurePoly(x**3 - x**2, x, domain='ZZ') 
 
 Realization {-,0,+} 
-u = Fraction(-1, 1), v = Fraction(0, 1), w = Fraction(2, 1) 
-a = Fraction(-3, 2), b = Fraction(-5, 2), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-2, 1) 
-PurePoly(x**3 - x**2 + 2, x, domain='ZZ') 
+u = Fraction(-1, 1), v = Fraction(0, 1), w = Fraction(4, 1) 
+a = Fraction(-2, 1), b = Fraction(-2, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-2, 1) 
+PurePoly(x**3 - x**2 + 4, x, domain='ZZ') 
 
 Realization {-,+,-} 
-u = Fraction(-2, 1), v = Fraction(6, 1), w = Fraction(-6, 1) 
-a = Fraction(-2, 1), b = Fraction(-5, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-1, 1) 
-PurePoly(x**3 - 2*x**2 + 6*x - 6, x, domain='ZZ') 
+u = Fraction(-1, 1), v = Fraction(1, 1), w = Fraction(-4, 1) 
+a = Fraction(-1, 2), b = Fraction(-9, 2), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-2, 1) 
+PurePoly(x**3 - x**2 + x - 4, x, domain='ZZ') 
 
 Realization {-,+,0} 
-u = Fraction(-2, 1), v = Fraction(4, 1), w = Fraction(0, 1) 
-a = Fraction(-8, 3), b = Fraction(-7, 3), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-1, 1) 
-PurePoly(x**3 - 2*x**2 + 4*x, x, domain='ZZ') 
+u = Fraction(-2, 1), v = Fraction(3, 1), w = Fraction(0, 1) 
+a = Fraction(-2, 1), b = Fraction(-2, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-1, 1) 
+PurePoly(x**3 - 2*x**2 + 3*x, x, domain='ZZ') 
 
 Realization {-,+,+} 
-u = Fraction(-2, 1), v = Fraction(6, 1), w = Fraction(6, 1) 
-a = Fraction(-6, 1), b = Fraction(-1, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-1, 1) 
-PurePoly(x**3 - 2*x**2 + 6*x + 6, x, domain='ZZ') 
+u = Fraction(-1, 1), v = Fraction(1, 1), w = Fraction(4, 1) 
+a = Fraction(-5, 2), b = Fraction(-5, 2), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-2, 1) 
+PurePoly(x**3 - x**2 + x + 4, x, domain='ZZ') 
 
 Realization {0,-,-} 
-u = Fraction(0, 1), v = Fraction(-1, 1), w = Fraction(-5, 1) 
-a = Fraction(-1, 5), b = Fraction(-29, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
-PurePoly(x**3 - x - 5, x, domain='ZZ') 
+u = Fraction(0, 1), v = Fraction(-1, 1), w = Fraction(-4, 1) 
+a = Fraction(-2, 5), b = Fraction(-28, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
+PurePoly(x**3 - x - 4, x, domain='ZZ') 
 
 Realization {0,-,0} 
-u = Fraction(0, 1), v = Fraction(-2, 1), w = Fraction(0, 1) 
-a = Fraction(-4, 5), b = Fraction(-21, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
-PurePoly(x**3 - 2*x, x, domain='ZZ') 
+u = Fraction(0, 1), v = Fraction(-3, 1), w = Fraction(0, 1) 
+a = Fraction(-2, 5), b = Fraction(-18, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
+PurePoly(x**3 - 3*x, x, domain='ZZ') 
 
 Realization {0,-,+} 
-u = Fraction(0, 1), v = Fraction(-2, 1), w = Fraction(6, 1) 
-a = Fraction(-2, 1), b = Fraction(-3, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
-PurePoly(x**3 - 2*x + 6, x, domain='ZZ') 
+u = Fraction(0, 1), v = Fraction(-3, 1), w = Fraction(9, 1) 
+a = Fraction(-11, 5), b = Fraction(-9, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
+PurePoly(x**3 - 3*x + 9, x, domain='ZZ') 
 
 Realization {0,0,-} 
-u = Fraction(0, 1), v = Fraction(0, 1), w = Fraction(-6, 1) 
-a = Fraction(-2, 5), b = Fraction(-33, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
-PurePoly(x**3 - 6, x, domain='ZZ') 
+u = Fraction(0, 1), v = Fraction(0, 1), w = Fraction(-4, 1) 
+a = Fraction(-4, 5), b = Fraction(-31, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
+PurePoly(x**3 - 4, x, domain='ZZ') 
 
 Realization {0,0,0} 
 u = Fraction(0, 1), v = Fraction(0, 1), w = Fraction(0, 1) 
@@ -69,68 +69,68 @@ a = Fraction(-8, 5), b = Fraction(-27, 5), c = Fraction(1, 1), d = Fraction(2, 1
 PurePoly(x**3, x, domain='ZZ') 
 
 Realization {0,0,+} 
-u = Fraction(0, 1), v = Fraction(0, 1), w = Fraction(6, 1) 
-a = Fraction(-14, 5), b = Fraction(-21, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
-PurePoly(x**3 + 6, x, domain='ZZ') 
+u = Fraction(0, 1), v = Fraction(0, 1), w = Fraction(4, 1) 
+a = Fraction(-12, 5), b = Fraction(-23, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
+PurePoly(x**3 + 4, x, domain='ZZ') 
 
 Realization {0,+,-} 
-u = Fraction(0, 1), v = Fraction(2, 1), w = Fraction(-6, 1) 
-a = Fraction(-6, 5), b = Fraction(-39, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
-PurePoly(x**3 + 2*x - 6, x, domain='ZZ') 
+u = Fraction(0, 1), v = Fraction(8, 1), w = Fraction(-4, 1) 
+a = Fraction(-4, 1), b = Fraction(-11, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
+PurePoly(x**3 + 8*x - 4, x, domain='ZZ') 
 
 Realization {0,+,0} 
-u = Fraction(0, 1), v = Fraction(2, 1), w = Fraction(0, 1) 
-a = Fraction(-12, 5), b = Fraction(-33, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
-PurePoly(x**3 + 2*x, x, domain='ZZ') 
+u = Fraction(0, 1), v = Fraction(8, 1), w = Fraction(0, 1) 
+a = Fraction(-24, 5), b = Fraction(-51, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
+PurePoly(x**3 + 8*x, x, domain='ZZ') 
 
 Realization {0,+,+} 
-u = Fraction(0, 1), v = Fraction(2, 1), w = Fraction(6, 1) 
-a = Fraction(-18, 5), b = Fraction(-27, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
-PurePoly(x**3 + 2*x + 6, x, domain='ZZ') 
+u = Fraction(0, 1), v = Fraction(8, 1), w = Fraction(4, 1) 
+a = Fraction(-28, 5), b = Fraction(-47, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-3, 1) 
+PurePoly(x**3 + 8*x + 4, x, domain='ZZ') 
 
 Realization {+,-,-} 
-u = Fraction(10, 1), v = Fraction(-2, 1), w = Fraction(-6, 1) 
-a = Fraction(-38, 15), b = Fraction(-487, 15), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2 - 2*x - 6, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(-8, 1), w = Fraction(-4, 1) 
+a = Fraction(-12, 7), b = Fraction(-170, 7), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2 - 8*x - 4, x, domain='ZZ') 
 
 Realization {+,-,0} 
-u = Fraction(10, 1), v = Fraction(-2, 1), w = Fraction(0, 1) 
-a = Fraction(-44, 15), b = Fraction(-481, 15), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2 - 2*x, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(-8, 1), w = Fraction(0, 1) 
+a = Fraction(-2, 1), b = Fraction(-24, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2 - 8*x, x, domain='ZZ') 
 
 Realization {+,-,+} 
-u = Fraction(10, 1), v = Fraction(-2, 1), w = Fraction(6, 1) 
-a = Fraction(-10, 3), b = Fraction(-95, 3), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2 - 2*x + 6, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(-8, 1), w = Fraction(4, 1) 
+a = Fraction(-16, 7), b = Fraction(-166, 7), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2 - 8*x + 4, x, domain='ZZ') 
 
 Realization {+,0,-} 
-u = Fraction(10, 1), v = Fraction(0, 1), w = Fraction(-6, 1) 
-a = Fraction(-14, 5), b = Fraction(-171, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2 - 6, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(0, 1), w = Fraction(-4, 1) 
+a = Fraction(-20, 7), b = Fraction(-218, 7), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2 - 4, x, domain='ZZ') 
 
 Realization {+,0,0} 
-u = Fraction(10, 1), v = Fraction(0, 1), w = Fraction(0, 1) 
-a = Fraction(-16, 5), b = Fraction(-169, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(0, 1), w = Fraction(0, 1) 
+a = Fraction(-22, 7), b = Fraction(-216, 7), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2, x, domain='ZZ') 
 
 Realization {+,0,+} 
-u = Fraction(10, 1), v = Fraction(0, 1), w = Fraction(6, 1) 
-a = Fraction(-18, 5), b = Fraction(-167, 5), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2 + 6, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(0, 1), w = Fraction(4, 1) 
+a = Fraction(-24, 7), b = Fraction(-214, 7), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2 + 4, x, domain='ZZ') 
 
 Realization {+,+,-} 
-u = Fraction(10, 1), v = Fraction(2, 1), w = Fraction(-6, 1) 
-a = Fraction(-46, 15), b = Fraction(-539, 15), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2 + 2*x - 6, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(8, 1), w = Fraction(-4, 1) 
+a = Fraction(-4, 1), b = Fraction(-38, 1), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2 + 8*x - 4, x, domain='ZZ') 
 
 Realization {+,+,0} 
-u = Fraction(10, 1), v = Fraction(2, 1), w = Fraction(0, 1) 
-a = Fraction(-52, 15), b = Fraction(-533, 15), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2 + 2*x, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(8, 1), w = Fraction(0, 1) 
+a = Fraction(-30, 7), b = Fraction(-264, 7), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2 + 8*x, x, domain='ZZ') 
 
 Realization {+,+,+} 
-u = Fraction(10, 1), v = Fraction(2, 1), w = Fraction(6, 1) 
-a = Fraction(-58, 15), b = Fraction(-527, 15), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-13, 1) 
-PurePoly(x**3 + 10*x**2 + 2*x + 6, x, domain='ZZ') 
+u = Fraction(9, 1), v = Fraction(8, 1), w = Fraction(4, 1) 
+a = Fraction(-32, 7), b = Fraction(-262, 7), c = Fraction(1, 1), d = Fraction(2, 1), e = Fraction(-12, 1) 
+PurePoly(x**3 + 9*x**2 + 8*x + 4, x, domain='ZZ') 
 
 27

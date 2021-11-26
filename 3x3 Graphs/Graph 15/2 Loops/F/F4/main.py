@@ -5,15 +5,15 @@ import fractions as fr
 #################################################################################
 # Author: Michael Hefley
 # Date: 11/18/2021
-# Graph: 11 w/ 3 loops
-# Nilpotent Signing: A
-#
+# Graph: 15 w/ 2 loops
+# Nilpotent Signing: F4
+
 # Purpose: We wish to obtain a certain realization of our Signed Coefficient Support
-# Arbitrary Pattern (SCSAP) of a specific graph (or signed graph). The program 
+# Arbitrary Pattern (SCSAP) of a specific graph (or signed graph). The program
 # generates random coefficients for our characteristic polynomial and then runs
-# through every possible signing of the 3 coefficients and saves a desired 
+# through every possible signing of the 3 coefficients and saves a desired
 # realization to the "output.txt" file. Sections that may need to be changed
-# when switching to a different graph contain double asterisks around the comments 
+# when switching to a different graph contain double asterisks around the comments
 # above that section. Remember, this program does NOT show if a graph is NOT
 # SCSAP, but can show that it is if ALL 27 realizations are found.
 #################################################################################
@@ -23,20 +23,20 @@ def main():
     realization_chars = ['-', '0', '+']
 
     # If you wish to clean up the file for a new run, uncomment the cleanFile() function below.
-    # clean_file()
+    clean_file()
 
     # **Set the "free" variables with correct signing**
-    c = fr.Fraction(1)
-    d = fr.Fraction(2)
+    b = fr.Fraction(-1)
+    d = fr.Fraction(-2)
 
     while True:
         # Chooses u,v,w to ba a random integer.
-        u_temp = fr.Fraction(rd.randint(1, 10))
-        v_temp = fr.Fraction(rd.randint(1, 10))
-        w_temp = fr.Fraction(rd.randint(1, 10))
+        u_temp = fr.Fraction(rd.uniform(.001, 10.0))
+        v_temp = fr.Fraction(rd.uniform(.001, 10.0))
+        w_temp = fr.Fraction(rd.uniform(.001, 10.0))
 
         # **Ensure we eliminate all possibilities of dividing by 0 and obtaining imaginary numbers.**
-        if u_temp != -c - 2 * d and -1 * u_temp != -c - 2 * d:
+        if b**2+b*d**2+b*d*u_temp+b*v_temp != 0 and b**2+b*d**2-b*d*u_temp-b*v_temp != 0 and b**2+b*d**2 != 0:
             for x, index1 in enumerate(realization_chars):  # (-,0,+) for the u value
                 u = (x - 1) * u_temp
 
@@ -47,13 +47,14 @@ def main():
                         w = (z - 1) * w_temp
 
                         # **Set variables to make coefficients of charpoly be u,v, and w.**
-                        e = -c - d - u
-                        b = (-2 * c ** 2 * u - 4 * c * d * u - c * u ** 2 - c * v - 2 * d ** 2 * u - d * u ** 2 - d * v
-                             - u * v + w - (c + d) ** 3) / (c + 2 * d + u)
-                        a = -(d ** 3 + d ** 2 * u + d * v + w) / (c + 2 * d + u)
+                        e = -d - u
+                        a = -b - d ** 2 - d * u - v
+
+                        f = (-2 * b * d - b * u - d ** 3 - 2 * d ** 2 * u - d * u ** 2 - d * v - u * v + w) / (
+                                    b ** 2 + b * d ** 2 + b * d * u + b * v)
 
                         # **Creates matrix and sign pattern.**
-                        matrix = sp.Matrix([[c, 1, b], [a, d, 0], [1, 0, e]])
+                        matrix = sp.Matrix([[0, 1, b], [a, d, 0], [1, f, e]])
 
                         # Makes a copy of the file.
                         with open("output.txt", 'r') as file:
@@ -63,7 +64,7 @@ def main():
                         # if the spot in the text file is taken for that realization pattern. If its not
                         # then we edit our copy of the file with our found realization then overwrite the
                         # actually file.**
-                        if a < 0 and b < 0 and e < 0:
+                        if a < 0 and e > 0 and f < 0:
                             if data[5 * (9 * x + 3 * y + z)] == '\n':
 
                                 # **Section that writes to the copy of the file.
