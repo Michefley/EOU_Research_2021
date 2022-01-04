@@ -23,11 +23,11 @@ def main():
     realization_chars = ['-', '0', '+']
 
     # If you wish to clean up the file for a new run, uncomment the cleanFile() function below.
-    clean_file()
+    # clean_file()
 
     # **Set the "free" variables with correct signing**
-    c = fr.Fraction(1)
-    d = fr.Fraction(-2)
+    c = fr.Fraction(2)
+    d = fr.Fraction(-16)
 
     while True:
         # Chooses u,v,w to ba a random integer.

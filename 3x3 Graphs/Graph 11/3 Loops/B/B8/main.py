@@ -23,17 +23,17 @@ def main():
     realization_chars = ['-', '0', '+']
 
     # If you wish to clean up the file for a new run, uncomment the cleanFile() function below.
-    clean_file()
+    # clean_file()
 
     # **Set the "free" variables with correct signing**
-    c = fr.Fraction(1)
-    d = fr.Fraction(-2)
+    c = fr.Fraction(.25)
+    d = fr.Fraction(-.5)
 
     while True:
         # Chooses u,v,w to ba a random integer.
-        u_temp = fr.Fraction(rd.uniform(.001, 10.0))
-        v_temp = fr.Fraction(rd.uniform(.001, 10.0))
-        w_temp = fr.Fraction(rd.uniform(.001, 10.0))
+        u_temp = fr.Fraction(rd.uniform(.001, 20.0))
+        v_temp = fr.Fraction(rd.uniform(.001, 20.0))
+        w_temp = fr.Fraction(rd.uniform(.001, 20.0))
 
         # **Ensure we eliminate all possibilities of dividing by 0 and obtaining imaginary numbers.**
         if u_temp != -c - 2 * d and -1 * u_temp != -c - 2 * d:

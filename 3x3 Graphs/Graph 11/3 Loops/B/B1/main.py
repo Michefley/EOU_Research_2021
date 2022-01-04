@@ -26,14 +26,14 @@ def main():
     # clean_file()
 
     # **Set the "free" variables with correct signing**
-    c = fr.Fraction(1)
-    d = fr.Fraction(-2)
+    c = fr.Fraction(10)
+    d = fr.Fraction(-20)
 
     while True:
         # Chooses u,v,w to ba a random integer.
-        u_temp = fr.Fraction(rd.uniform(.001, 10.0))
-        v_temp = fr.Fraction(rd.uniform(.001, 10.0))
-        w_temp = fr.Fraction(rd.uniform(.001, 10.0))
+        u_temp = fr.Fraction(rd.uniform(.001, 50.0))
+        v_temp = fr.Fraction(rd.uniform(.001, 50.0))
+        w_temp = fr.Fraction(rd.uniform(.001, 50.0))
 
         # **Ensure we eliminate all possibilities of dividing by 0 and obtaining imaginary numbers.**
         if u_temp != -c - 2 * d and -1 * u_temp != -c - 2 * d:
