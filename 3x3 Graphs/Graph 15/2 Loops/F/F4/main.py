@@ -23,7 +23,7 @@ def main():
     realization_chars = ['-', '0', '+']
 
     # If you wish to clean up the file for a new run, uncomment the cleanFile() function below.
-    clean_file()
+    # clean_file()
 
     # **Set the "free" variables with correct signing**
     b = fr.Fraction(-1)
@@ -74,7 +74,7 @@ def main():
 
                                 data[(1 + 5 * (9 * x + 3 * y + z))] = f'{u = }, {v = }, {w = } \n'
 
-                                data[(2 + 5 * (9 * x + 3 * y + z))] = f'{a = }, {b = }, {c = }, {d = }, {e = } \n'
+                                data[(2 + 5 * (9 * x + 3 * y + z))] = f'{a = }, {b = }, {d = }, {e = }, {f = } \n'
 
                                 data[(3 + 5 * (9 * x + 3 * y + z))] = f'{matrix.charpoly("x")} \n'
 

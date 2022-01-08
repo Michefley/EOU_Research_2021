@@ -23,7 +23,7 @@ def main():
     realization_chars = ['-', '0', '+']
 
     # If you wish to clean up the file for a new run, uncomment the cleanFile() function below.
-    clean_file()
+    # clean_file()
 
     # **Set the "free" variables with correct signing**
     c = fr.Fraction(1)

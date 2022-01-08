@@ -23,17 +23,17 @@ def main():
     realization_chars = ['-', '0', '+']
 
     # If you wish to clean up the file for a new run, uncomment the cleanFile() function below.
-    clean_file()
+    # clean_file()
 
     # **Set the "free" variables with correct signing**
-    b = fr.Fraction(-1)
-    d = fr.Fraction(2)
+    b = fr.Fraction(-2)
+    d = fr.Fraction(3)
 
     while True:
         # Chooses u,v,w to ba a random integer.
-        u_temp = fr.Fraction(rd.uniform(.001, 10.0))
-        v_temp = fr.Fraction(rd.uniform(.001, 10.0))
-        w_temp = fr.Fraction(rd.uniform(.001, 10.0))
+        u_temp = fr.Fraction(rd.uniform(.001, 20.0))
+        v_temp = fr.Fraction(rd.uniform(.001, 20.0))
+        w_temp = fr.Fraction(rd.uniform(.001, 20.0))
 
         # **Ensure we eliminate all possibilities of dividing by 0 and obtaining imaginary numbers.**
         if b**2+b*d**2+b*d*u_temp+b*v_temp != 0 and b**2+b*d**2-b*d*u_temp-b*v_temp != 0 and b**2+b*d**2 != 0:
@@ -74,7 +74,7 @@ def main():
 
                                 data[(1 + 5 * (9 * x + 3 * y + z))] = f'{u = }, {v = }, {w = } \n'
 
-                                data[(2 + 5 * (9 * x + 3 * y + z))] = f'{a = }, {b = }, {c = }, {d = }, {e = } \n'
+                                data[(2 + 5 * (9 * x + 3 * y + z))] = f'{a = }, {b = }, {d = }, {e = }, {f = } \n'
 
                                 data[(3 + 5 * (9 * x + 3 * y + z))] = f'{matrix.charpoly("x")} \n'
 
