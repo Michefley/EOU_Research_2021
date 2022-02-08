@@ -9,5 +9,8 @@ and allow loops (but not multiple arcs). Next we will look at graphs with 4 vert
 
 The programs (main.py) in each subfolder are to establish any valid realizations found by 
 running through random rational numbers and checking for the desired signing of each arc weight.
-Each realization is written to a file in its repected subfolder (output.txt). A link
+Each realization is written to a file in its respected subfolder (output.txt). A link
 to this github repository will be provided in our Latex document.
+
+Some patterns have incomplete outputs. To see conclusive results (if any) about that pattern,
+view our [latex document](https://www.overleaf.com/read/wmmfdmkzmddz).
